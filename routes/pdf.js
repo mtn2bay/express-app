@@ -4,8 +4,8 @@ var pdfFiller = require('pdffiller');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    // var sourcePDF = "public/OoPdfFormExample.pdf";
-    var sourcePDF = "public/ACOE-Data-Form-NCNE-fillable.pdf";
+    var sourcePDF = "public/OoPdfFormExample.pdf";
+    // var sourcePDF = "public/ACOE-Data-Form-NCNE-fillable.pdf";
 
     var destinationPDF =  "public/test_complete.pdf";
     let data = {
