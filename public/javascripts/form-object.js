@@ -1,4 +1,9 @@
 let dataForm = {
+    "plot":{},
+    "summary":{},
+    "hydrology":{},
+    "vegetation":{},
+    "soil":{},
     "projectSite":"",
     "cityCounty":"",
     "applicantOwner":"",
